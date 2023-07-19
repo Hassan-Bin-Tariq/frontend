@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@emotion/react'],
+      external: [], // Remove '@emotion/react' from the external list
     },
   },
 })
